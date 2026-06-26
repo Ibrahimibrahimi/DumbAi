@@ -14,7 +14,7 @@ with open("history_of_two_bots.json", "w") as file:
 
 i = 0
 while True:
-    i += 1
+    i += 2
     deep1_answer = deep1.ask(deep2_answer)
     print(f"{Fore.GREEN}Deep 1 [{i}] : {Style.RESET_ALL}", deep1_answer)
     
